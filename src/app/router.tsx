@@ -11,6 +11,7 @@ import { NotFoundPage } from '@/app/pages/NotFoundPage';
 import { SectionPlaceholderPage } from '@/app/pages/SectionPlaceholderPage';
 import { AuthGate } from '@/features/auth/AuthGate';
 import { RosterPage } from '@/features/roster/RosterPage';
+import { SalesPage } from '@/features/sales/SalesPage';
 import { SettingsPage } from '@/features/settings/SettingsPage';
 import { ProfilePage } from '@/features/profile/ProfilePage';
 import { OrganizationPage } from '@/features/organization/OrganizationPage';
@@ -28,6 +29,8 @@ const sectionRoutes: RouteObject[] = NAV_ITEMS.map((item) => {
       ? <RanksPage />
       : item.key === 'passwordRequests'
       ? <PasswordRequestsPage />
+      : item.key === 'sales'
+        ? <SalesPage />
       : item.key === 'teams'
         ? <OrganizationPage section="teams" />
     : item.key === 'settings'

@@ -458,6 +458,51 @@
       "performance.review": "مراجعة أداء الموظفين"
     }
   },
+  "sales": {
+    "title": "المبيعات",
+    "description": "كل عملية بيع يسجلها فريقك مع حالتها وقيمتها.",
+    "count": "{{count}} عملية بيع",
+    "noMatches": "لا توجد مبيعات مطابقة لهذه المرشحات.",
+    "emptyTitle": "لا توجد مبيعات بعد",
+    "emptyBody": "ستظهر المبيعات التي تسجلها أو تستوردها هنا.",
+    "filters": {
+      "status": "الحالة",
+      "branch": "الفرع",
+      "from": "من تاريخ",
+      "to": "إلى تاريخ",
+      "clear": "مسح المرشحات"
+    },
+    "summary": {
+      "total": "إجمالي القيمة",
+      "approved": "معتمد",
+      "pending": "قيد الانتظار",
+      "count": "المبيعات"
+    },
+    "columns": {
+      "saleNumber": "رقم البيع",
+      "date": "التاريخ",
+      "employee": "الموظف",
+      "branch": "الفرع",
+      "amount": "المبلغ",
+      "payment": "الدفع",
+      "status": "الحالة"
+    },
+    "paymentMethods": {
+      "cash": "نقدي",
+      "card": "بطاقة",
+      "bank_transfer": "تحويل بنكي",
+      "cheque": "شيك",
+      "financing": "تمويل"
+    },
+    "status": {
+      "draft": "مسودة",
+      "pending_approval": "بانتظار الاعتماد",
+      "approved": "معتمد",
+      "rejected": "مرفوض",
+      "cancelled": "ملغي",
+      "returned": "مرتجع"
+    }
+  },
   "passwordRequests": {
     "title": "طلبات تغيير كلمة المرور",
     "description": "راجع طلبات الموظفين الذين لا يستطيعون تغيير كلمة المرور عبر البريد.",

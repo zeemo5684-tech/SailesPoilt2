@@ -458,6 +458,51 @@
       "performance.review": "Review employee performance"
     }
   },
+  "sales": {
+    "title": "Sales",
+    "description": "Every sale your team records, with its status and value.",
+    "count": "{{count}} sales",
+    "noMatches": "No sales match these filters.",
+    "emptyTitle": "No sales yet",
+    "emptyBody": "Sales you record or import will appear here.",
+    "filters": {
+      "status": "Status",
+      "branch": "Branch",
+      "from": "From",
+      "to": "To",
+      "clear": "Clear filters"
+    },
+    "summary": {
+      "total": "Total value",
+      "approved": "Approved",
+      "pending": "Pending",
+      "count": "Sales"
+    },
+    "columns": {
+      "saleNumber": "Sale no.",
+      "date": "Date",
+      "employee": "Employee",
+      "branch": "Branch",
+      "amount": "Amount",
+      "payment": "Payment",
+      "status": "Status"
+    },
+    "paymentMethods": {
+      "cash": "Cash",
+      "card": "Card",
+      "bank_transfer": "Bank transfer",
+      "cheque": "Cheque",
+      "financing": "Financing"
+    },
+    "status": {
+      "draft": "Draft",
+      "pending_approval": "Pending approval",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled",
+      "returned": "Returned"
+    }
+  },
   "passwordRequests": {
     "title": "Password change requests",
     "description": "Review requests from employees who cannot reset their password by email.",
